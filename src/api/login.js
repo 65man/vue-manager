@@ -5,7 +5,7 @@ export const loginByUser = (username, password) => {
     url: 'login',
     method: 'post',
     data: {
-      username,
+      user_name: username,
       password
     }
   })
